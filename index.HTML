@@ -10,11 +10,11 @@
 
     <style>
         :root {
-            --bg: #f0f0fa;
+            --bg: #ffffff;
             --primary: #1a1a8a;
             --text: #222;
             --muted: #555;
-            --card: #fff;
+            --card: #ffffff;
         }
 
         * {
@@ -174,7 +174,7 @@
         }
 
         .project-card p {
-            color: #ddd;
+            color: #ffffff;
         }
 
         /* CONTACT FORM */
@@ -188,7 +188,7 @@
             padding: 25px;
             border-radius: 10px;
             margin: auto;
-            border: 1px solid #ccc;
+            border: 1px solid #ffffff;
         }
 
         .contact-box input,
@@ -252,14 +252,21 @@
     </header>
 
 
-    <!-- HERO -->
-    <section class="hero">
-        <h1>Hi, I am <span>Navraj Amgai</span></h1>
-        <div class="classic">and I am a passionate</div>
-        <div id="typedtext"></div>
+   <!-- HERO -->
+<section class="hero" style="display: flex; align-items: center; justify-content: space-between; padding: 6% 6%; gap: 40px; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 280px;">
+        <h1>Hi, I am <span style="color: #1a1a8a; font-family: 'Playfair Display', serif;">Navraj Amgai</span></h1>
+        <div class="classic" style="font-size: 22px; margin-top: 10px; font-family: 'Playfair Display', serif;">and I am a passionate</div>
+        <div id="typedtext" style="font-size: 20px; margin-top: 5px; color: #1a1a8a; min-height: 28px;"></div>
+        <p style="margin-top: 15px; color: #555;">I am a first-year student with a strong interest in technology, design, and building useful projects. I enjoy learning new skills and improving my knowledge every day.</p>
+    </div>
 
-        <p>I am a first-year student with a strong interest in technology, design, and building useful projects. I enjoy learning new skills and improving my knowledge every day.
-    </section>
+    <div style="flex: 1; min-width: 280px; text-align: center;">
+        <img src="https://img.pikbest.com/png-images/qiantu/vector-simple-purple-contrast-color-fresh-wind-business-man-working-with-computer-at-desk_2718496.png!sw800" 
+             alt="Hero Image" 
+             style="width:100%; max-width:500px; border-radius: 10px;">
+    </div>
+</section>
 
 
     <!-- ABOUT -->
